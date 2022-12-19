@@ -1,0 +1,38 @@
+﻿<Window x:Class="ghid.W_County"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ghid"
+        mc:Ignorable="d"
+        Title="W_County" Height="656" Width="900" ResizeMode="NoResize">
+    <Grid>
+        <Image x:Name="Background" HorizontalAlignment="Left" Height="651" VerticalAlignment="Top" Width="923" Margin="0,-25,-29.4,0" Source="county/Bacau/colaj-bacau.jpg"/>
+        
+        <Button Content="" HorizontalAlignment="Left" Margin="241,218,0,0" VerticalAlignment="Top" Width="178" Height="134" Opacity="0.8">
+            <Button.Background>
+                <ImageBrush ImageSource="county/comun/restaurant.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="495,218,0,0" VerticalAlignment="Top" Width="178" Height="134" Opacity="0.8">
+            <Button.Background>
+                <ImageBrush ImageSource="county/comun/hotel.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="241,412,0,0" VerticalAlignment="Top" Width="178" Height="134" Opacity="0.8">
+            <Button.Background>
+                <ImageBrush ImageSource="county/comun/pin.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="495,412,0,0" VerticalAlignment="Top" Width="178" Height="134" Opacity="0.8">
+            <Button.Background>
+                <ImageBrush ImageSource="county/comun/bus.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="356,97,0,0" VerticalAlignment="Top" Width="205" Height="60" Opacity="0.8">
+            <Button.Background>
+                <ImageBrush ImageSource="county/comun/history.jpg" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>
