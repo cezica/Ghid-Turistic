@@ -1,0 +1,18 @@
+﻿<Window x:Class="ghid.W_Region"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ghid"
+        mc:Ignorable="d"
+        Title="W_Region" Height="656" Width="900" ResizeMode="NoResize">
+    <Grid>
+        <Image x:Name="Background" HorizontalAlignment="Left" Height="632" VerticalAlignment="Top" Width="895" Margin="-1,0,-0.4,-5.6" Source="images/background.png"/>
+        <Image x:Name="Region" HorizontalAlignment="Left" Height="369" VerticalAlignment="Top" Width="415" Margin="238,106,0,0"/>
+        <Button x:Name="C1" Content="" HorizontalAlignment="Left" Margin="347,298,0,0" VerticalAlignment="Top" Width="13" Height="13" Background="#FFED1818" Click="C1_Click"/>
+        <Button x:Name="C2" Content="" HorizontalAlignment="Left" Margin="347,207,0,0" VerticalAlignment="Top" Width="13" Height="13" Background="#FFED1818" Click="C2_Click"/>
+        <Button x:Name="C3" Content="" HorizontalAlignment="Left" Margin="473,207,0,0" VerticalAlignment="Top" Width="13" Height="13" Background="#FFED1818" Click="C3_Click"/>
+        <Button x:Name="C4" Content="" HorizontalAlignment="Left" Margin="95,395,0,0" VerticalAlignment="Top" Width="13" Height="13" Visibility="Hidden" Background="#FFED1818" Click="C4_Click"/>
+        <Button x:Name="C5" Content="" HorizontalAlignment="Left" Margin="95,330,0,0" VerticalAlignment="Top" Width="13" Height="13" Visibility="Hidden" Background="#FFED1818" Click="C5_Click"/>
+    </Grid>
+</Window>
